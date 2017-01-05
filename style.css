@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.head-menu {
+	width: 100%;
+	height: 200px;
+}
+
+.logo {
+	position: relative;
+	width: 300px;
+	height: 130px;
+	margin-left: 50px;
+	margin-top: 50px;
+	float: left;
+}
+
+.title {
+	position: absolute;
+	text-align: center;
+	font-size: 30px;
+	width: 100%;
+	margin-top: 80px;
+}
+
+.title h2 {
+	font-size: 30px;
+}
+
+.menu {
+	float: right;
+	height: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+.active {
+	background-color: #e9e9e9;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.menu li {
+    float: left;
+
+}
+
+.menu li a {
+    display: block;
+    height: 25px;
+    color: black;
+    padding: 5px 15px;
+    font-size: 20px;
+    background-color: #fff;
+    border: solid 1px silver;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	background-color: #f6f6f6;
+}
+
+.task {
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.menu-task {
+	float: left;
+}
+
+.menu-task li a {
+	display: block;
+	width: 270px;
+	color: black;
+	font-size: 30px;
+	text-align: left;
+	padding: 10px 15px;
+	background-color: #fff;
+	border: solid 1px silver;
+	text-decoration: none;
+}
+
+.menu-task li a:hover {
+	background-color: #f6f6f6;
+}
+
+.task-content {
+	margin-left: 400px;
+	/*margin-right: 200px;*/
+}
+
+.task-content p{
+	margin-bottom: 20px;	
+}
+
+.tail {
+	width: 100%;
+	height: 40px;
+	text-align: center;
+}
